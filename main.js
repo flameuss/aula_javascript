@@ -1,3 +1,61 @@
+// #####manipulando elementos da página
+function clicou(){
+  document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+ // console.log(document.getElementById("agradecimento"));
+  //alert("Obrigado por clicar!");
+
+}
+
+
+function redirecionar(){
+  window.open("https://globallabs.academy/");
+ // window.location.href = "https://globallabs.academy/";
+}
+
+function trocar(elemento){
+  //.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+ // alert("trocar texto");
+ elemento.innerHTML ="Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+  // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+  elemento.innerHTML ="Passe o mouse aqui";
+}
+
+function load(){
+  alert("Página carregada!");
+}
+function funcaoChange(elemento){
+  console.log(elemento.value)
+}
+// #### Desenvolva páginas web com JavaScript
+
+// function validaIdade(idade){
+//   var validar;
+//   if(idade >=18){
+//       validar = true
+
+//   }else{
+//       validar = false
+//     }
+//     return validar;
+// }
+
+// var idade = prompt("Qual é a sua idade ?");
+// console.log(validaIdade(idade));
+
+// function soma(n1,n2){
+// return n1+n2;
+// }
+
+// function setReplace(frase, nome, novo_nome){
+//   return frase.replace(nome, novo_nome)
+// }
+// alert(soma(5,10));
+// alert(setReplace("vai Japão", "Japão", "Brasil" ));
+
+
 // ## Introdução ao JavaScript
 // var nome = "Luis Henrique";
 // var idade = 29;
